@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import {TaskList} from './myComponents/TaskList';
 
@@ -7,9 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <TaskList></TaskList>
        
       </header>
     </div>
